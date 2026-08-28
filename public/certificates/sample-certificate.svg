@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Placeholder certificate">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1418"/>
+      <stop offset="100%" stop-color="#08090c"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="24" y="24" width="752" height="552" fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-width="1.5" rx="10"/>
+  <rect x="38" y="38" width="724" height="524" fill="none" stroke="url(#accent)" stroke-opacity="0.35" stroke-width="1" rx="6"/>
+
+  <circle cx="400" cy="168" r="42" fill="none" stroke="url(#accent)" stroke-opacity="0.55" stroke-width="2"/>
+  <path d="M382 168l12 12 24-24" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="400" y="264" text-anchor="middle" fill="#8b8f9a" font-family="monospace" font-size="15" letter-spacing="6">CERTIFICATE PLACEHOLDER</text>
+  <text x="400" y="322" text-anchor="middle" fill="#ededf0" font-family="sans-serif" font-size="34" font-weight="600">Your Certificate Title</text>
+  <text x="400" y="360" text-anchor="middle" fill="#8b8f9a" font-family="sans-serif" font-size="18">Issuing Organization</text>
+
+  <line x1="260" y1="404" x2="540" y2="404" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+
+  <text x="400" y="444" text-anchor="middle" fill="#5c6069" font-family="monospace" font-size="13">Replace this file with your certificate image</text>
+  <text x="400" y="470" text-anchor="middle" fill="#5c6069" font-family="monospace" font-size="13">public/certificates/ &#183; data/certificates.ts</text>
+
+  <text x="400" y="534" text-anchor="middle" fill="#3a3d44" font-family="monospace" font-size="12" letter-spacing="3">SAMPLE &#183; NOT A REAL CREDENTIAL</text>
+</svg>
